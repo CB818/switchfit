@@ -1,0 +1,40 @@
+parameters:
+   # session domain
+    server.session.domain: .switchfit.lo
+    # hosts
+    server.host.landing: signup.switchfit.lo
+    server.host.app: app.switchfit.lo
+    # redis
+    server.redis_dsn.cache: redis://localhost/5
+    server.redis_dsn.session: redis://localhost/6
+    server.redis_dsn.mailer_spool: redis://localhost/7
+    # redis queue
+    server.redis_queue.host: localhost
+    server.redis_queue.port: 6379
+    server.redis_queue.database: 8
+    # bins
+    server.node.bin: /usr/bin/node
+    server.node.paths: [/usr/lib/node_modules]
+    server.uglifyjs2.bin: /usr/bin/uglifyjs
+    server.uglifycss.bin: /usr/bin/uglifycss
+    server.coffee.bin: /usr/bin/coffee
+    server.less.bin: /usr/bin/lessc
+    # mailer
+    server.mailer.transport: smtp
+    server.mailer.encryption: ssl
+    server.mailer.auth_mode: login
+    server.mailer.port: 465
+    server.mailer.host: smtp.gmail.com
+    server.mailer.user: team@switchfit.io
+    server.mailer.password: goswtichfit1991
+    server.mailer.delivery_address: kim@wuestkamp.com
+    # payment
+    server.payment.skrill.email: kimskrillbusiness@wuestkamp.com
+    server.payment.skrill.password: 123Lolchen
+    server.payment.skrill.secret_word: 123456
+    # facebook
+    server.oauth.facebook.client_id: 139200083077684
+    server.oauth.facebook.client_secret: ce9dd5da470b19ddd2b0b04e8536a598
+    #rss
+    rss.channels:
+      - "http://feeds.feedburner.com/allscandinavian?format=xml"

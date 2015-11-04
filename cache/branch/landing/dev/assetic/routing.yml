@@ -1,0 +1,5 @@
+_assetic:
+    resource: .
+    type: assetic
+_app:
+    resource: /home/edward/workspace/Gitlab/switchfit/repo/branch/app/landing/config/routing_dev.yml
